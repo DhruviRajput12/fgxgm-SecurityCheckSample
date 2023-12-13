@@ -1,4 +1,5 @@
 FROM node:18.18.2
+FROM node:21.3-bullseye-slim
 
 # Upgrade Node Package Manager (NPM)
 RUN npm install -g npm@9.1.3
