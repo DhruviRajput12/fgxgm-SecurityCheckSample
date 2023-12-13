@@ -24,7 +24,7 @@
 
     "openssh/openssh-client": "^1:9.2p1-2+deb12u1",
 
-    ]"curl": "^7.88.1-10+deb12u4",
+    "curl": "^7.88.1-10+deb12u4",
     "curl/libcurl3-gnutls": "^7.88.1-10+deb12u4",
     "curl/libcurl4": "^7.88.1-10+deb12u4",
     "curl/libcurl4-openssl-dev": "^7.88.1-10+deb12u4",
