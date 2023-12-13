@@ -11,6 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "libwebp/libwebp-dev": "^1.2.4-0.2+deb12u1",
+    "libwebp/libwebp7": "^1.2.4-0.2+deb12u1",
+    "libwebp/libwebpdemux2": "^1.2.4-0.2+deb12u1",
+    "libwebp/libwebpmux3": "^1.2.4-0.2+deb12u1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "14.0.0",
