@@ -19,6 +19,16 @@
     "postgresql-15/libpq5": "^15.5-0+deb12u1",
     "postgresql-15/libpq-dev": "^15.5-0+deb12u1",
 
+    "zlib/zlib1g": "1:1.2.13.dfsg-1",
+    "zlib/zlib1g-dev": "1:1.2.13.dfsg-1",
+
+    "openssh/openssh-client": "^1:9.2p1-2+deb12u1",
+
+    ]"curl": "^7.88.1-10+deb12u4",
+    "curl/libcurl3-gnutls": "^7.88.1-10+deb12u4",
+    "curl/libcurl4": "^7.88.1-10+deb12u4",
+    "curl/libcurl4-openssl-dev": "^7.88.1-10+deb12u4",
+
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "14.0.0",
