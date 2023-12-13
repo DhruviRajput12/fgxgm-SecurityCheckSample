@@ -1,13 +1,22 @@
 FROM node:18.17.1
 
+# Upgrade Node Package Manager (NPM)
 RUN npm install -g npm@9.1.3
 
-ADD package.json .
-ADD index.js .
-ADD build .
-COPY . .
+# Set the working directory
+WORKDIR /app
+
+# Copy package.json and package-lock.json to the working directory
+COPY package*.json ./
+
+# Install app dependencies
 RUN npm install
 
+# Copy the rest of the application files
+COPY . .
+
+# Expose the port
 EXPOSE 8080
 
+# Command to run the application
 CMD [ "node", "index.js" ]
